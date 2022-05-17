@@ -5,6 +5,7 @@ import MyLogin from './components/MyLogin';
 import ArrowComponent from './components/ArrowComponents';
 import ArrowLogin from './components/ArrowLogin';
 import StateComponent from './components/StateComponent';
+import ArrowState from './components/ArrowState';
 
 //함수형 컴포넌트
 function App() {
@@ -33,6 +34,7 @@ function App() {
         props 속성의 이름을 통해서 props값을 전달할수 있다. */
         >태그사이로 전달되는 props</ArrowComponent>
         <StateComponent />
+        <ArrowState />
       </header>
     </div>
   );

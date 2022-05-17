@@ -14,7 +14,7 @@ const ArrowComponent = (props) => {
       </div>
    );
 };
-// 값을 작성해 주지 않으면 아래 값으로 들어가서 출력된다.
+// App.js에서 값을 작성해 주지 않으면 아래 값으로 들어가서 출력된다.
 ArrowComponent.defaultProps = {
    name : "기본이름",
 };
